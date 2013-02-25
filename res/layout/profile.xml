@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/details_id"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/header" />
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="0dp"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/listMain"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="fill_parent"
+                    android:layout_height="114dp" >
+
+                    <!-- android:background="@drawable/first_cell_background" -->
+ >
+
+                    
+
+                    <LinearLayout
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                       
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/txtFirstRow"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="4dp"
+                            android:textSize="14sp"
+                            android:textStyle="bold" 
+                            android:textColor="@color/blue_android"/>
+
+                        <TextView
+                            android:id="@+id/txtSecondRow"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="4dp"
+                            android:textSize="14sp"
+                            android:textColor="@color/blue_android" />
+                        <TextView
+                            android:id="@+id/txtTreeRow"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="4dp"
+                            android:textSize="14sp"
+                            android:textColor="@color/blue_android" />
+                        <TextView
+                            android:id="@+id/txtFourRow"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="4dp"
+                            android:textSize="14sp"
+                            android:textColor="@color/blue_android" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/picImage"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginTop="12dp"
+                        android:scaleType="fitXY" 
+                        android:background="@drawable/default_profile"/>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/listPictures"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="0dp"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</LinearLayout>

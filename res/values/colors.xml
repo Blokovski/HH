@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="opaque_red">#f00</color>
+    <color name="translucent_red">#80ff0000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="black_transparent">#80000000</color>
+    <color name="red">#FF0000</color>
+    <color name="grey">#808080</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="green_light">#1BCF48</color>
+    <color name="brown">#75614e</color>
+    <color name="yellow">#EBEB07</color>
+    <color name="pink">#e83796</color>
+    <color name="blue_android">#0b84aa</color>
+    <color name="skoro_pa_crna">#e4e4e4</color>
+
+</resources>

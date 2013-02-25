@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="hhRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/rating_stars</item>
+        <item name="android:width">300px</item>
+       <item name="android:layout_height">wrap_content</item>
+     
+    </style>
+    
+        
+</resources>

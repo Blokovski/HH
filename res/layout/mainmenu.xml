@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/skoro_pa_crna" >
+
+    <!--
+         <ImageView
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/header" />
+    -->
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/header" />
+
+    <GridView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView1"
+        android:layout_below="@+id/header"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:columnWidth="90dp"
+        android:horizontalSpacing="10dp"
+        android:numColumns="2"
+        android:stretchMode="spacingWidthUniform"
+        android:verticalSpacing="10dp" />
+
+   <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+      
+        android:gravity="center_horizontal"
+        android:text="Use Menu for more options"
+        android:textColor="@color/blue_android" />
+
+</RelativeLayout>

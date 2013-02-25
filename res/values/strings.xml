@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hottie Hello</string>
+	<string name="please_correct_errors">Please, correct errors. </string>
+	<string name="account_ok">Your Account is created. You can use App now.</string>
+	<string name="login_ok">You are logged now. Happy hunting.</string>
+	<string name="upload_ok">Your hunt is uploaded.</string>
+	<string name="country_prompt">Choose a country</string>
+	<string name="password_match">Passwords not matched</string>
+	<string name="email_not_good">Does not look like email.</string>
+	<string name="not_loged">You are not loged. Please login.</string>
+	<string name="rate_ok">Your vote is saved. Thank you.</string>	
+	<string name="no_more_data">No more data</string>
+	<string name="share">Share your hunt!</string>
+	<string name="check_internet_conection">Check your Intrent connection</string>
+	<string name="try_again">Try again</string>
+	<string name="cancel">Cancel</string>
+	<string name="load_more">Load more</string>
+	<string name="enter_location">Please enter your location</string>
+	<string name="enable_networks">Please enable "Use wireless networks"for less typing</string>
+	<string name="picture_deleted">Your picture is deleted</string>
+	<string name="delete_question">Are you sure that you want to delete this image?</string>
+	<string name="wrong_flag">You marked this picture as inappropriate. Are you sure?</string>
+</resources>

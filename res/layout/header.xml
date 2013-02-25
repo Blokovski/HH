@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:background="@color/white" >
+
+    <Button
+        android:id="@+id/picLogo"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/header" />
+
+    <!--
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/bck_header" />
+
+        <Button
+            android:id="@+id/picLogo"
+            android:layout_width="90dp"
+            android:layout_height="58dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/logo_small" />
+
+    </FrameLayout>
+    -->
+
+
+    <!--
+         <Button
+        android:id="@+id/btnFavorites"
+        android:layout_width="@dimen/header_button"
+        android:layout_height="@dimen/header_button"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/bookmarks_selector"
+        android:onClick="onClickBtnFavorites" />
+    -->
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="@dimen/header_button"
+        android:layout_height="@dimen/header_button"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/share_selector"
+        android:onClick="onClickBtnShare"
+        android:visibility="invisible" />
+    
+    <Button
+        android:id="@+id/btnZoom"
+        android:layout_width="@dimen/header_button"
+        android:layout_height="@dimen/header_button"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/zoom"
+        android:onClick="onClickBtnZoom"
+        android:visibility="invisible" />
+
+    <!--
+        <Button
+        android:id="@+id/btnFavorite"
+        android:layout_width="@dimen/header_button"
+        android:layout_height="@dimen/header_button"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/favorite_selector"
+        android:onClick="onClickBtnFavorite"/>
+    -->
+
+</RelativeLayout>
